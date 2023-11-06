@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+html {
+    color: #333;
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    background-color:aliceblue;
+}
+
+header nav ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    cursor: pointer;
+    }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.carrinho {
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    list-style: none;
+    padding: 20px;
+    height: 40px;
+}
+
+.colection:hover {
+    background-color: rgb(226, 229, 233);
+}
+  
+.launches:hover {
+    background-color: rgb(226, 229, 233);
+}
+  
+.promotions:hover {
+    background-color: rgb(226, 229, 233);
+}
+  
+main {
+    display: flex;
+    height: 900px;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253, 247, 247);
+    }
+
+section img {
+    width: 900px;
+}
+
+.direita {
+    background-color: rgb(153, 240, 240);
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    letter-spacing: 6px; 
+    font-weight:500; 
+}
+
+p {
+    font-size: 20px;
+}
+
+.botões {
+    display: flex;
+    
+}
+
+button {
+    height: 60px;
+    padding-inline: 16px;
+    font-family: 'Kanit', sans-serif;
+    font-weight:bolder; 
+    color: white;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    
+  
+    
+}
+
+.btn-detalhes {
+    background-color: #928e8e;
+}
+
+.btn-cart {
+    background-color: rgb(20, 19, 19);
+}
+
+main img {
+    position: absolute;
+    bottom: 130px;
+    right: 200px; 
+}
+
+.rodape {
+    background-color: #585656;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+    
